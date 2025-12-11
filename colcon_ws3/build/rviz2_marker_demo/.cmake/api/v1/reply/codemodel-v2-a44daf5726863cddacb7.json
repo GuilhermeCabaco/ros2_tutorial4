@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9f7a5978e1441104f887.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rviz2_marker_demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz2_marker_demo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz2_marker_demo_uninstall-e14bfbf50696afaf1e5c.json",
+					"name" : "rviz2_marker_demo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_node-bb5c3989b0741296af0f.json",
+					"name" : "rviz_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0f2eea4bc71b945f28dd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo",
+		"source" : "/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/src/rviz2_marker_demo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

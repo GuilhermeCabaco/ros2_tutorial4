@@ -1,0 +1,11 @@
+/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/learning_tf2/CMakeFiles/uninstall.dir
+/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/learning_tf2/CMakeFiles/learning_tf2_uninstall.dir
+/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/learning_tf2/CMakeFiles/turtle_tf2_broadcaster.dir
+/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/learning_tf2/CMakeFiles/turtle_tf2_listener_simple.dir
+/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/learning_tf2/CMakeFiles/test.dir
+/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/learning_tf2/CMakeFiles/edit_cache.dir
+/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/learning_tf2/CMakeFiles/rebuild_cache.dir
+/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/learning_tf2/CMakeFiles/list_install_components.dir
+/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/learning_tf2/CMakeFiles/install.dir
+/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/learning_tf2/CMakeFiles/install/local.dir
+/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/learning_tf2/CMakeFiles/install/strip.dir

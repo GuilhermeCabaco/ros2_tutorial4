@@ -1,0 +1,10 @@
+/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo/CMakeFiles/uninstall.dir
+/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo/CMakeFiles/rviz2_marker_demo_uninstall.dir
+/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo/CMakeFiles/rviz_node.dir
+/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo/CMakeFiles/test.dir
+/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo/CMakeFiles/edit_cache.dir
+/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo/CMakeFiles/rebuild_cache.dir
+/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo/CMakeFiles/list_install_components.dir
+/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo/CMakeFiles/install.dir
+/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo/CMakeFiles/install/local.dir
+/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo/CMakeFiles/install/strip.dir

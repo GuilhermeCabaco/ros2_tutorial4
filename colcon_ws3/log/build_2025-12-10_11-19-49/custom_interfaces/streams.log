@@ -1,0 +1,238 @@
+[0.021s] Invoking command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces
+[0.079s] -- The C compiler identification is GNU 13.3.0
+[0.135s] -- The CXX compiler identification is GNU 13.3.0
+[0.152s] -- Detecting C compiler ABI info
+[0.248s] -- Detecting C compiler ABI info - done
+[0.258s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.258s] -- Detecting C compile features
+[0.258s] -- Detecting C compile features - done
+[0.267s] -- Detecting CXX compiler ABI info
+[0.373s] -- Detecting CXX compiler ABI info - done
+[0.383s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.384s] -- Detecting CXX compile features
+[0.384s] -- Detecting CXX compile features - done
+[0.389s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.557s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.689s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.751s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.772s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.795s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.819s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.916s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.922s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.032s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.055s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.078s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.168s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.205s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.231s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.800s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.624s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.951s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.956s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.090s] -- Found PythonExtra: /usr/bin/python3  
+[3.480s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.544s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.581s] -- Added test 'lint_cmake' to check CMake code style
+[3.582s] -- Added test 'xmllint' to check XML markup files
+[3.586s] -- Configuring done (3.6s)
+[3.625s] -- Generating done (0.0s)
+[3.637s] -- Build files have been written to: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/custom_interfaces
+[3.649s] Invoked command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces
+[3.651s] Invoking command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/custom_interfaces -- -j12 -l12
+[3.709s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.721s] [  2%] Built target ament_cmake_python_copy_custom_interfaces
+[3.873s] [  2%] Built target custom_interfaces__rosidl_generator_type_description
+[3.887s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.901s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.917s] running egg_info
+[3.917s] creating custom_interfaces.egg-info
+[3.935s] writing custom_interfaces.egg-info/PKG-INFO
+[3.935s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[3.935s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[3.935s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[3.986s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[3.986s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[4.011s] [  8%] Built target ament_cmake_python_build_custom_interfaces_egg
+[4.109s] [  8%] Built target custom_interfaces__cpp
+[4.124s] [ 17%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/my_message__description.c.o[0m
+[4.124s] [ 17%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/my_message__type_support.c.o[0m
+[4.124s] [ 17%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/my_message__functions.c.o[0m
+[4.173s] [ 20%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[4.227s] [ 20%] Built target custom_interfaces__rosidl_generator_c
+[4.245s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.245s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.245s] [ 32%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.246s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.246s] [ 38%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.246s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.509s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/my_message__type_support.cpp.o[0m
+[4.522s] [ 44%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/my_message__type_support.cpp.o[0m
+[4.525s] [ 47%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/my_message__type_support.cpp.o[0m
+[4.536s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/my_message__type_support.cpp.o[0m
+[4.548s] [ 52%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/my_message__type_support.c.o[0m
+[4.560s] [ 55%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/my_message__type_support_c.cpp.o[0m
+[4.597s] [ 58%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[4.605s] [ 61%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.656s] [ 61%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[4.660s] [ 61%] Built target custom_interfaces__rosidl_typesupport_c
+[4.821s] [ 64%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.878s] [ 67%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[4.890s] [ 67%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[4.934s] [ 67%] Built target custom_interfaces__rosidl_typesupport_cpp
+[4.951s] [ 70%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.027s] [ 70%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.041s] [ 73%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.112s] [ 73%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[5.137s] [ 73%] Built target custom_interfaces
+[5.161s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.385s] [ 76%] Built target custom_interfaces__py
+[5.412s] [ 79%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_my_message_s.c.o[0m
+[5.540s] [ 82%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_py.so[0m
+[5.588s] [ 82%] Built target custom_interfaces__rosidl_generator_py
+[5.614s] [ 85%] [32mBuilding C object CMakeFiles/custom_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.614s] [ 88%] [32mBuilding C object CMakeFiles/custom_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.615s] [ 91%] [32mBuilding C object CMakeFiles/custom_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.711s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.so[0m
+[5.716s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[5.717s] [100%] [32m[1mLinking C shared module rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.753s] [100%] Built target custom_interfaces_s__rosidl_typesupport_c
+[5.761s] [100%] Built target custom_interfaces_s__rosidl_typesupport_introspection_c
+[5.762s] [100%] Built target custom_interfaces_s__rosidl_typesupport_fastrtps_c
+[5.781s] Invoked command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/custom_interfaces -- -j12 -l12
+[5.782s] Invoking command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/custom_interfaces
+[5.794s] -- Install configuration: ""
+[5.794s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[5.794s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/msg/MyMessage.json
+[5.795s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[5.795s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[5.795s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.795s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/my_message.h
+[5.795s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[5.795s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__functions.c
+[5.795s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__struct.h
+[5.796s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__functions.h
+[5.796s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__type_support.h
+[5.796s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__type_support.c
+[5.796s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__description.c
+[5.796s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[5.796s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[5.797s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[5.797s] -- Set non-toolchain portion of runtime path of "/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[5.797s] -- Up-to-date: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[5.798s] -- Up-to-date: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[5.798s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.798s] -- Up-to-date: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[5.798s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__rosidl_typesupport_fastrtps_c.h
+[5.798s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.798s] -- Set non-toolchain portion of runtime path of "/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.798s] -- Up-to-date: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[5.798s] -- Up-to-date: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[5.799s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/my_message.hpp
+[5.799s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.799s] -- Up-to-date: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[5.799s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__traits.hpp
+[5.799s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__type_support.hpp
+[5.799s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__builder.hpp
+[5.799s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__struct.hpp
+[5.799s] -- Up-to-date: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[5.799s] -- Up-to-date: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[5.799s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.799s] -- Up-to-date: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[5.799s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps
+[5.800s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__rosidl_typesupport_fastrtps_cpp.hpp
+[5.800s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.800s] -- Set non-toolchain portion of runtime path of "/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.800s] -- Up-to-date: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[5.800s] -- Up-to-date: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[5.800s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.801s] -- Up-to-date: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[5.801s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__rosidl_typesupport_introspection_c.h
+[5.801s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__type_support.c
+[5.801s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[5.801s] -- Set non-toolchain portion of runtime path of "/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.801s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[5.802s] -- Set non-toolchain portion of runtime path of "/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[5.802s] -- Up-to-date: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[5.802s] -- Up-to-date: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[5.802s] -- Up-to-date: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[5.802s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__rosidl_typesupport_introspection_cpp.hpp
+[5.802s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/my_message__type_support.cpp
+[5.802s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.802s] -- Set non-toolchain portion of runtime path of "/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.803s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[5.803s] -- Set non-toolchain portion of runtime path of "/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.803s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[5.803s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[5.803s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info
+[5.804s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[5.804s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.804s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.804s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[5.804s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces
+[5.804s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.805s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.805s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.805s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg
+[5.805s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg/_my_message_s.c
+[5.805s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg/__init__.py
+[5.805s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg/_my_message.py
+[5.805s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.806s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[5.806s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/__init__.py
+[5.806s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.so
+[5.840s] Listing '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces'...
+[5.840s] Compiling '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/__init__.py'...
+[5.840s] Listing '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg'...
+[5.840s] Compiling '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg/__init__.py'...
+[5.840s] Compiling '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg/_my_message.py'...
+[5.845s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.845s] -- Set non-toolchain portion of runtime path of "/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.845s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.846s] -- Set non-toolchain portion of runtime path of "/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[5.846s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.so
+[5.846s] -- Set non-toolchain portion of runtime path of "/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.so" to ""
+[5.847s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[5.847s] -- Set non-toolchain portion of runtime path of "/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[5.847s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/msg/MyMessage.idl
+[5.847s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/msg/MyMessage.msg
+[5.848s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[5.848s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[5.848s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[5.848s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[5.849s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[5.849s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[5.850s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[5.850s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[5.850s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[5.851s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[5.851s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/package.dsv
+[5.851s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[5.852s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[5.852s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.852s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.852s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.853s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[5.853s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.853s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.853s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.853s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.853s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[5.854s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.854s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.854s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.854s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[5.854s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.855s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[5.855s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.855s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.855s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.855s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.855s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.856s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.856s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.856s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.856s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[5.856s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[5.857s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/custom_interfaces/share/custom_interfaces/package.xml
+[5.860s] Invoked command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/custom_interfaces

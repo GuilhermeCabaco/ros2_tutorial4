@@ -1,0 +1,71 @@
+[0.012s] Invoking command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/src/urdf_tutorial -DCMAKE_INSTALL_PREFIX=/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial
+[0.067s] -- The C compiler identification is GNU 13.3.0
+[0.123s] -- The CXX compiler identification is GNU 13.3.0
+[0.139s] -- Detecting C compiler ABI info
+[0.231s] -- Detecting C compiler ABI info - done
+[0.241s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.242s] -- Detecting C compile features
+[0.242s] -- Detecting C compile features - done
+[0.252s] -- Detecting CXX compiler ABI info
+[0.359s] -- Detecting CXX compiler ABI info - done
+[0.369s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.369s] -- Detecting CXX compile features
+[0.370s] -- Detecting CXX compile features - done
+[0.375s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.542s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.669s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.732s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.753s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.776s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.801s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.897s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.903s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.009s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.031s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.056s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.143s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.160s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.280s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.289s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.289s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.291s] -- Added test 'lint_cmake' to check CMake code style
+[1.293s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.298s] -- Added test 'xmllint' to check XML markup files
+[1.301s] -- Configuring done (1.3s)
+[1.307s] -- Generating done (0.0s)
+[1.310s] -- Build files have been written to: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/urdf_tutorial
+[1.319s] Invoked command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/src/urdf_tutorial -DCMAKE_INSTALL_PREFIX=/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial
+[1.320s] Invoking command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/urdf_tutorial -- -j12 -l12
+[1.367s] Invoked command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/urdf_tutorial -- -j12 -l12
+[1.378s] Invoking command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/urdf_tutorial
+[1.387s] -- Install configuration: ""
+[1.387s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/launch
+[1.387s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/launch/pantilt_visualization.launch.py
+[1.387s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/launch/ex3b.launch.py
+[1.387s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/launch/ur_visualization.launch.py
+[1.387s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/config
+[1.387s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/config/pawn_marker.yaml
+[1.387s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/urdf
+[1.388s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/urdf/pan_tilt.xacro
+[1.388s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/urdf/ur.urdf.xacro
+[1.388s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/urdf/pan_tilt.urdf
+[1.388s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/rviz
+[1.388s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/rviz/display_urdf.rviz
+[1.388s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/rviz/ur_visualization.rviz
+[1.389s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/ament_index/resource_index/package_run_dependencies/urdf_tutorial
+[1.389s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/ament_index/resource_index/parent_prefix_path/urdf_tutorial
+[1.389s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.sh
+[1.389s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.dsv
+[1.389s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/environment/path.sh
+[1.390s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/environment/path.dsv
+[1.390s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/local_setup.bash
+[1.391s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/local_setup.sh
+[1.391s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/local_setup.zsh
+[1.391s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/local_setup.dsv
+[1.391s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/package.dsv
+[1.392s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/ament_index/resource_index/packages/urdf_tutorial
+[1.392s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.392s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig.cmake
+[1.392s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig-version.cmake
+[1.392s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/urdf_tutorial/share/urdf_tutorial/package.xml
+[1.394s] Invoked command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/urdf_tutorial

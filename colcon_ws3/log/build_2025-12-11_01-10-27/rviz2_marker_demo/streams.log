@@ -1,0 +1,14 @@
+[0.017s] Invoking command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo -- -j12 -l12
+[0.097s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o[0m
+[1.952s] [01m[K/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:[m[K In constructor ‘[01m[KMarkerPublisherNode::[01;32m[KMarkerPublisherNode[m[K()[m[K’:
+[1.953s] [01m[K/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:64:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster_[m[K’ was not declared in this scope
+[1.953s]    64 |     [01;31m[Ktf_broadcaster_[m[K = std::make_shared<tf2_ros::TransformBroadcaster>(*this);
+[1.953s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.964s] [01m[K/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:[m[K In member function ‘[01m[Kvoid MarkerPublisherNode::[01;32m[Ktimer_callback[m[K()[m[K’:
+[1.964s] [01m[K/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:130:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster_[m[K’ was not declared in this scope
+[1.964s]   130 |         [01;31m[Ktf_broadcaster_[m[K->sendTransform(t);
+[1.964s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.911s] gmake[2]: *** [CMakeFiles/rviz_node.dir/build.make:76: CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o] Error 1
+[2.911s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rviz_node.dir/all] Error 2
+[2.911s] gmake: *** [Makefile:146: all] Error 2
+[2.915s] Invoked command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo -- -j12 -l12

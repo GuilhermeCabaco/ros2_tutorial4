@@ -4,6 +4,9 @@
 #include "visualization_msgs/msg/marker_array.hpp"
 #include "geometry_msgs/msg/pose.hpp"
 
+#include "geometry_msgs/msg/transform_stamped.hpp"
+#include "tf2_ros/transform_broadcaster.h"
+#include "tf2/LinearMath/Quaternion.h"
 
 class ObjectInfo {
 private:
@@ -55,9 +58,13 @@ public:
   : Node("marker_publisher_node")
   {
     publisher_ = create_publisher<visualization_msgs::msg::MarkerArray>("visualization_marker_array", 10);
+    
+    tf_broadcaster_ = std::make_shared<tf2_ros::TransformBroadcaster>(this);
+    
+    SetWorld();
     timer_ = create_wall_timer(
       500ms, std::bind(&MarkerPublisherNode::timer_callback, this));
-    SetWorld();
+      
   }
 
   void timer_callback()
@@ -105,6 +112,23 @@ public:
         RCLCPP_DEBUG(get_logger(), "ORI W value is: [%f]", marker.pose.orientation.w);
 
         markers_message_.markers.push_back(marker);
+
+        // Publish transform tf_XX
+        geometry_msgs::msg::TransformStamped t;
+        t.header.stamp = this->get_clock()->now();
+        t.header.frame_id = "assembly_frame";
+        t.child_frame_id = "tf_" + std::to_string(objects[i].getObjID());
+        
+        t.transform.translation.x = objects[i].getx();
+        t.transform.translation.y = objects[i].gety();
+        t.transform.translation.z = objects[i].getz();
+
+        t.transform.rotation.x = objects[i].getqx();
+        t.transform.rotation.y = objects[i].getqy();
+        t.transform.rotation.z = objects[i].getqz();
+        t.transform.rotation.w = objects[i].getqw();  
+
+        tf_broadcaster_->sendTransform(t);
     }
 
     publisher_->publish(markers_message_);
@@ -317,6 +341,7 @@ private:
   rclcpp::TimerBase::SharedPtr timer_;
   std::vector<ObjectInfo> objects;
   visualization_msgs::msg::MarkerArray markers_message_;
+  std::shared_ptr<tf2_ros::TransformBroadcaster> tf_broadcaster_;
 };
 
 

@@ -1,0 +1,83 @@
+[0.014s] Invoking command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/learning_tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/src/learning_tf2 -DCMAKE_INSTALL_PREFIX=/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2
+[0.071s] -- The C compiler identification is GNU 13.3.0
+[0.126s] -- The CXX compiler identification is GNU 13.3.0
+[0.144s] -- Detecting C compiler ABI info
+[0.239s] -- Detecting C compiler ABI info - done
+[0.249s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.249s] -- Detecting C compile features
+[0.250s] -- Detecting C compile features - done
+[0.260s] -- Detecting CXX compiler ABI info
+[0.367s] -- Detecting CXX compiler ABI info - done
+[0.376s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.377s] -- Detecting CXX compile features
+[0.377s] -- Detecting CXX compile features - done
+[0.383s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.549s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.677s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.739s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.760s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.782s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.807s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.903s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.909s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.017s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.040s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.064s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.150s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.188s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[1.195s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.357s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[1.392s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.512s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.514s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.514s] -- Configured cppcheck include dirs: 
+[1.514s] -- Configured cppcheck exclude dirs and/or files: 
+[1.516s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.516s] -- Configured cpplint exclude dirs and/or files: 
+[1.517s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.517s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.519s] -- Added test 'lint_cmake' to check CMake code style
+[1.520s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.522s] -- Added test 'uncrustify' to check C / C++ code style
+[1.522s] -- Configured uncrustify additional arguments: 
+[1.523s] -- Added test 'xmllint' to check XML markup files
+[1.526s] -- Configuring done (1.5s)
+[1.544s] -- Generating done (0.0s)
+[1.550s] -- Build files have been written to: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/learning_tf2
+[1.559s] Invoked command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/learning_tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/src/learning_tf2 -DCMAKE_INSTALL_PREFIX=/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2
+[1.560s] Invoking command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/learning_tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/learning_tf2 -- -j12 -l12
+[1.620s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o[0m
+[1.620s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener_simple.dir/src/turtle_tf2_listener_simple.cpp.o[0m
+[6.283s] [ 75%] [32m[1mLinking CXX executable turtle_tf2_listener_simple[0m
+[6.514s] [ 75%] Built target turtle_tf2_listener_simple
+[8.235s] [100%] [32m[1mLinking CXX executable turtle_tf2_broadcaster[0m
+[8.572s] [100%] Built target turtle_tf2_broadcaster
+[8.585s] Invoked command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/learning_tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/learning_tf2 -- -j12 -l12
+[8.587s] Invoking command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/learning_tf2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/learning_tf2
+[8.596s] -- Install configuration: ""
+[8.596s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/lib/learning_tf2/turtle_tf2_broadcaster
+[8.603s] -- Set non-toolchain portion of runtime path of "/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/lib/learning_tf2/turtle_tf2_broadcaster" to ""
+[8.603s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/lib/learning_tf2/turtle_tf2_listener_simple
+[8.606s] -- Set non-toolchain portion of runtime path of "/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/lib/learning_tf2/turtle_tf2_listener_simple" to ""
+[8.606s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/share/learning_tf2/launch
+[8.606s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/share/learning_tf2/launch/tf2_broadcaster.launch.py
+[8.606s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/share/learning_tf2/launch/turtle_tf2_demo2.launch.py
+[8.606s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/share/learning_tf2/rviz
+[8.606s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/share/learning_tf2/rviz/turtlesim_vis.rviz
+[8.607s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/share/ament_index/resource_index/package_run_dependencies/learning_tf2
+[8.607s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/share/ament_index/resource_index/parent_prefix_path/learning_tf2
+[8.607s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/share/learning_tf2/environment/ament_prefix_path.sh
+[8.607s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/share/learning_tf2/environment/ament_prefix_path.dsv
+[8.607s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/share/learning_tf2/environment/path.sh
+[8.607s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/share/learning_tf2/environment/path.dsv
+[8.608s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/share/learning_tf2/local_setup.bash
+[8.608s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/share/learning_tf2/local_setup.sh
+[8.608s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/share/learning_tf2/local_setup.zsh
+[8.608s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/share/learning_tf2/local_setup.dsv
+[8.609s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/share/learning_tf2/package.dsv
+[8.609s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/share/ament_index/resource_index/packages/learning_tf2
+[8.609s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/share/learning_tf2/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.609s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/share/learning_tf2/cmake/learning_tf2Config.cmake
+[8.609s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/share/learning_tf2/cmake/learning_tf2Config-version.cmake
+[8.610s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/learning_tf2/share/learning_tf2/package.xml
+[8.612s] Invoked command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/learning_tf2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/learning_tf2

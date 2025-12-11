@@ -1,0 +1,29 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o[0m
+[01m[K/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:[m[K In constructor ‘[01m[KMarkerPublisherNode::[01;32m[KMarkerPublisherNode[m[K()[m[K’:
+[01m[K/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:64:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster_[m[K’ was not declared in this scope
+   64 |     [01;31m[Ktf_broadcaster_[m[K = std::make_shared<tf2_ros::TransformBroadcaster>(*this);
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:64:49:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformBroadcaster[m[K’ is not a member of ‘[01m[Ktf2_ros[m[K’; did you mean ‘[01m[KStaticTransformBroadcaster[m[K’?
+   64 |     tf_broadcaster_ = std::make_shared<tf2_ros::[01;31m[KTransformBroadcaster[m[K>(*this);
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                 [32m[KStaticTransformBroadcaster[m[K
+[01m[K/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:64:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(MarkerPublisherNode&)[m[K’
+   64 |     tf_broadcaster_ = [01;31m[Kstd::make_shared<tf2_ros::TransformBroadcaster>(*this)[m[K;
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+                 from [01m[K/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:1[m[K:
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+ 1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:64:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   64 |     tf_broadcaster_ = [01;31m[Kstd::make_shared<tf2_ros::TransformBroadcaster>(*this)[m[K;
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:[m[K In member function ‘[01m[Kvoid MarkerPublisherNode::[01;32m[Ktimer_callback[m[K()[m[K’:
+[01m[K/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/src/rviz2_marker_demo/src/rviz_node.cpp:130:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster_[m[K’ was not declared in this scope
+  130 |         [01;31m[Ktf_broadcaster_[m[K->sendTransform(t);
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/rviz_node.dir/build.make:76: CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rviz_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

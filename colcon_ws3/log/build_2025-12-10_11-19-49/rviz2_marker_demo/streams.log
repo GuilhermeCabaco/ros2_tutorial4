@@ -1,0 +1,94 @@
+[0.012s] Invoking command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/src/rviz2_marker_demo -DCMAKE_INSTALL_PREFIX=/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo
+[0.069s] -- The C compiler identification is GNU 13.3.0
+[0.124s] -- The CXX compiler identification is GNU 13.3.0
+[0.143s] -- Detecting C compiler ABI info
+[0.235s] -- Detecting C compiler ABI info - done
+[0.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.246s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.255s] -- Detecting CXX compiler ABI info
+[0.362s] -- Detecting CXX compiler ABI info - done
+[0.373s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.373s] -- Detecting CXX compile features
+[0.374s] -- Detecting CXX compile features - done
+[0.379s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.548s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.675s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.736s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.757s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.780s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.804s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.901s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.907s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.015s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.036s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.060s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.148s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.164s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.247s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.364s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.367s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.367s] -- Configured cppcheck include dirs: 
+[1.367s] -- Configured cppcheck exclude dirs and/or files: 
+[1.370s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.370s] -- Configured cpplint exclude dirs and/or files: 
+[1.371s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.371s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.373s] -- Added test 'lint_cmake' to check CMake code style
+[1.374s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.377s] -- Added test 'uncrustify' to check C / C++ code style
+[1.377s] -- Configured uncrustify additional arguments: 
+[1.378s] -- Added test 'xmllint' to check XML markup files
+[1.382s] -- Configuring done (1.4s)
+[1.395s] -- Generating done (0.0s)
+[1.399s] -- Build files have been written to: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo
+[1.410s] Invoked command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/src/rviz2_marker_demo -DCMAKE_INSTALL_PREFIX=/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo
+[1.411s] Invoking command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo -- -j12 -l12
+[1.470s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_node.dir/src/rviz_node.cpp.o[0m
+[5.262s] [100%] [32m[1mLinking CXX executable rviz_node[0m
+[5.462s] [100%] Built target rviz_node
+[5.480s] Invoked command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo -- -j12 -l12
+[5.481s] Invoking command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo
+[5.490s] -- Install configuration: ""
+[5.491s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/lib/rviz2_marker_demo/rviz_node
+[5.492s] -- Set non-toolchain portion of runtime path of "/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/lib/rviz2_marker_demo/rviz_node" to ""
+[5.493s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/launch
+[5.493s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/launch/rviz_marker_demo.launch.py
+[5.493s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/rviz
+[5.493s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/rviz/rviz2_marker_demo.rviz
+[5.493s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects
+[5.493s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane
+[5.493s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/Chassis.stl
+[5.493s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/Window.stl
+[5.494s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/Propeller.stl
+[5.494s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/FrontWheel.stl
+[5.494s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/MotorGrill.stl
+[5.494s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/UnderBody.stl
+[5.499s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/RearWheelLeft.stl
+[5.499s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/TopWing.dae
+[5.503s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/UpperBody.dae
+[5.508s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/BottomWing.stl
+[5.509s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/TopWing.stl
+[5.511s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/RearWing.stl
+[5.512s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/UpperBody.stl
+[5.514s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/plane/RearWheelRight.stl
+[5.514s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/fixtures
+[5.514s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/fixtures/Wooden_Plate.dae
+[5.514s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/objects/fixtures/Wooden_Plate.stl
+[5.514s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/ament_index/resource_index/package_run_dependencies/rviz2_marker_demo
+[5.515s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/ament_index/resource_index/parent_prefix_path/rviz2_marker_demo
+[5.515s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/environment/ament_prefix_path.sh
+[5.515s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/environment/ament_prefix_path.dsv
+[5.515s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/environment/path.sh
+[5.516s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/environment/path.dsv
+[5.516s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/local_setup.bash
+[5.516s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/local_setup.sh
+[5.516s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/local_setup.zsh
+[5.516s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/local_setup.dsv
+[5.517s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/package.dsv
+[5.517s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/ament_index/resource_index/packages/rviz2_marker_demo
+[5.517s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.517s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/cmake/rviz2_marker_demoConfig.cmake
+[5.517s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/cmake/rviz2_marker_demoConfig-version.cmake
+[5.517s] -- Installing: /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/install/rviz2_marker_demo/share/rviz2_marker_demo/package.xml
+[5.520s] Invoked command in '/home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/guilhermecabaco/Desktop/ros2_ws/tutoriais_ros2/install/temperature_monitor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/guilhermecabaco/Desktop/ros2_ws/ros2_tutorial4/colcon_ws3/build/rviz2_marker_demo
